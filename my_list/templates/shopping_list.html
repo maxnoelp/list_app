@@ -1,1 +1,49 @@
-<h1>Todo Liste</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=abel:400|abyssinica-sil:400" rel="stylesheet" />
+    <title>Todo List</title>
+</head>
+
+<style>
+    :root {
+        font-family: 'Abel', sans-serif;
+        font-family: 'Abyssinica SIL', serif;
+        font-size: 20px;
+    }
+
+    body {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+</style>
+
+<body>
+    <header
+        class="d-flex justify-content-between align-items-center sticky-top bg-secondary  pt-3 pb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <h1 class="text-center">Todo List</h1>
+        <button type="button" class="btn btn-outline-light mr-2">add</button>
+    </header>
+    <main class="d-flex flex-column ">
+        <div
+            class="d-flex align-items-center g-1 text-light ml-2 mr-2 mb-2 bg-secondary p-2 shadow-lg bg-body-tertiary rounded">
+            <input class="mr-1" type="checkbox" name="checkbox" id="checkbox">Element
+        </div>
+        <div
+            class="d-flex align-items-center g-1 text-light ml-2 mr-2 mb-2 bg-secondary p-2 shadow-lg bg-body-tertiary rounded">
+            <input class="mr-1" type="checkbox" name="checkbox" id="checkbox">Element
+        </div>
+        <div
+            class="d-flex align-items-center g-1 text-light ml-2 mr-2 mb-2 bg-secondary p-2 shadow-lg bg-body-tertiary rounded">
+            <input class="mr-1" type="checkbox" name="checkbox" id="checkbox">Element
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
